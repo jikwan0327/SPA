@@ -7,10 +7,10 @@ export default class extends AbstractView {
     this.setTitle("Viewing Post");
   }
 
-  async getHtml() {
+  async getHTML() {
     return `
-            <h1>Post</h1>
-            <p>You are viewing post #${this.postId}.</p>
-        `;
+        <h1>Post</h1>
+        <p>You are viewing post #${this.postId}.</p>
+    `;
   }
 }
